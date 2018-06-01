@@ -1,0 +1,72 @@
+/* Style overall page */
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000000;
+  opacity: 0.9;
+  text-align: center;
+}
+/* Style the header */
+header{
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  padding-left: 10px;
+}
+
+#logo img{
+  height: 50px;
+}
+
+#nav{
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+#nav a{
+  text-decoration: underline;
+  color: seashell;
+  font-size: 15px;
+  opacity: 0.9;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Style the main */
+main{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style Mission Section */
+#mission{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/img-mission-background.jpg')
+}
+
+#mission .content{
+  width: 100%;
+  background-color: #000000;
+}
+
+#mission .content h2, #mission .content h4{
+  margin: 10px auto;
+  opacity: 0.9;
+}
